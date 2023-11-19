@@ -1,0 +1,86 @@
+body{
+
+background-color: white;
+}
+
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 20PX;
+
+}
+
+.icon{
+    width: 368px;
+    height: 33px;
+}
+
+.button_Group{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.dd{
+
+    position: relative;
+   
+
+}
+
+.ddn{
+
+    cursor:pointer;
+
+}
+
+
+.ddc{
+    position: fixed;
+    display: none;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: rgb(10, 11, 8);
+;
+
+}
+
+
+.dd:hover .ddc{
+    display: block;
+}
+
+
+.ddn{
+    position: absolute;
+    color: #ababab;/
+    display: none;
+    text-decoration: none;
+    text-align: -webkit-match-parent;
+    
+    
+}
+
+li{
+
+    list-style: none;
+
+10px
+}
+
+.MenuStyle{
+
+    margin:10px;
+    display: inline-block;
+    padding:10px ;
+    color:dimgray;
+    text-decoration: none;
+}
