@@ -302,4 +302,35 @@ p{
 
 
 
+#country{
+    display: none;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: -5PX 5px 10px 0 #d3cfc9;
+    width: 100px;
 
+}
+
+#countryList{
+
+    margin-top: 80px;
+}
+#countryList:focus + #country,
+#country:focus-within{
+    display: block;
+
+}
+
+button{
+    text-decoration: underline;
+    background: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+.box{
+
+    /*position: relative ;
+}
